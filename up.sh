@@ -37,9 +37,10 @@
 # https://www.baeldung.com/ops/git-remove-file-without-deleting-it
 # git rm --cached file.txt
 
-# checking if I have the latest files from github
-echo "Checking for newer files online first"
-git pull
+# Creating the database
+cd x86_64
+sh update_repo.sh
+cd ..
 
 #workdir=$(pwd)
 
